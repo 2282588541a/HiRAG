@@ -44,7 +44,7 @@ def embedding(message):
             time.sleep(1)
 def dpr_search(message,keyword='',retry_num=1):#dpr 
     host = '127.0.0.1'
-    print("开始使用密集检索器dpr")
+    print("dense retriever")
     port = 12345
     # if keyword=='':
     #     find1=find_prompt+ques+'\n'+"##output: "
